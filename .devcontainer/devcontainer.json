@@ -1,14 +1,14 @@
 {
-  "name": "Spotify Dev Container",
+  "name": "Advent of Code Dev Container",
   "build": {
     "dockerfile": "Dockerfile",
-    "context": ".."
+    "context": "."
   },
   "settings": {
     "python.pythonPath": "/usr/local/bin/python"
   },
   "extensions": [
     "ms-python.python"
-  ],
-  "postCreateCommand": "pip install -r requirements.txt"
+  ]
+  // "postCreateCommand": "pip install -r requirements.txt"
 }
