@@ -10,21 +10,23 @@ file = open('part1_input.aoc', 'r')
 Lines = file.readlines()
 file.close()
 
-# ===== Initialize result
+# ===== Initialize result and total
 result = 0
+total = 0
 
 # ===== Iterate over lines
 for line in Lines:
+    total += 1
     # Get line
     line = line.strip('\n')
     line = line.split(' ')
     
     # Make sure every line is ascending
-    if line[0]>line[-1]:
+    if int(line[0])>int(line[-1]):
         line.reverse()
         
     # If first and last value are equal, forget it (Never happens)
-    if line[0]>line[-1]:
+    if int(line[0])>int(line[-1]):
         print("*** BOOM ***")
         continue    
     
@@ -32,7 +34,7 @@ for line in Lines:
     for i in range(len(line)-1):
         x = int(line[i])
         y = int(line[i+1])
-        print(f"x:{x}|y:{y}")
+        print(f"x:{x}|y:{y} ({y-x})")
         
         # If two equal consecutive values
         if x==y:
@@ -52,4 +54,4 @@ for line in Lines:
     print(" ")
     
 # ===== Show result
-print("The result is " + str(result))
+print(f"The result is {result} out of {total}")
