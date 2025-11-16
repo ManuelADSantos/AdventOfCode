@@ -19,7 +19,8 @@ FROM python:3.11-slim-buster
 # Copy entrypoint script (if needed)
 COPY entrypoint.sh /entrypoint.d/entrypoint.sh
 
-# Ensure entrypoint.sh is also in the correct context
+# Ensure entrypoint.sh is executable
+RUN chmod +x /entrypoint.d/entrypoint.sh
 
 # Set the entrypoint (if applicable)
 # CMD ["/bin/bash", "/"] 

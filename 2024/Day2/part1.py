@@ -3,8 +3,8 @@
 # Date: 11/12/2024
 
 # ===== Open file
-# file = open('part1_fake.aoc', 'r')
-file = open('part1_input.aoc', 'r')
+# file = open('train.aoc', 'r')
+file = open('input.aoc', 'r')
 
 # ===== Read Lines
 Lines = file.readlines()

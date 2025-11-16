@@ -1,6 +1,6 @@
 # Author: ManuelADSantos
 # Description: Solution for day 1 of the 2024 Advent of Code challenge
-# Date: 11/12/2024
+# Date: 12/12/2024
 
 # ===== Open file
 # file = open('train.aoc', 'r')
@@ -27,13 +27,11 @@ for line in Lines:
     list1.append(int(line[0]))
     list2.append(int(line[-1]))
 
-# ===== Order lists
-list1.sort()
-list2.sort()
 
 # ===== Calculate distances
 for i in range(len(list1)):
-    result += abs(list1[i] - list2[i])
+    x = list1[i]
+    result += x * list2.count(x)
 
 # ===== Show result
 print("The result is " + str(result))

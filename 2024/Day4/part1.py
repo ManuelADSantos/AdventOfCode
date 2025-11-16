@@ -3,8 +3,8 @@
 # Date: 11/12/2024
 
 # ===== Open file
-file = open('part1_fake.aoc', 'r')
-# file = open('part1_input.aoc', 'r')
+file = open('train.aoc', 'r')
+# file = open('input.aoc', 'r')
 
 # ===== Read Lines
 Lines = file.readlines()
@@ -13,9 +13,14 @@ file.close()
 # ===== Initialize result
 result = 0
 
+data = [[""] * len(Lines[0])] * len(Lines)
+
+print(data)
+
 # ===== Iterate over lines
-for line in Lines:
-    print(line)
+for i in range(len(Lines[0])):
+    for j in range(len(Lines)):
+        data[i][j] = Lines[i][j]
     
 
 
