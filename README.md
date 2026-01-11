@@ -12,4 +12,7 @@ Repository for Experimentations on the Advent of Code challenge (https://advento
 ## 2024
 <p align="center"><img src="./.github/graphics/aoc-progress-2024.svg" alt="AoC 2024 progress"/></p>
 
+## 2025
+<p align="center"><img src="./.github/graphics/aoc-progress-2025.svg" alt="AoC 2025 progress"/></p>
+
 <!-- AOC_PROGRESS_END -->

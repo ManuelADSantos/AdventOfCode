@@ -1,0 +1,117 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="440"
+        height="44"
+        viewBox="0 0 440 44"
+    >
+        
+            <a href="./2025/Day01">
+              <rect x="8" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#2ecc71">
+                <title>Day 1: ⭐</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day02">
+              <rect x="44" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 2: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day03">
+              <rect x="80" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 3: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day04">
+              <rect x="116" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 4: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day05">
+              <rect x="152" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 5: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day06">
+              <rect x="188" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 6: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day07">
+              <rect x="224" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 7: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day08">
+              <rect x="260" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 8: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day09">
+              <rect x="296" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 9: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day10">
+              <rect x="332" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 10: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day11">
+              <rect x="368" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 11: not solved</title>
+              </rect>
+            </a>
+            
+            <a href="./2025/Day12">
+              <rect x="404" y="8"
+                    width="28" height="28"
+                    rx="6" ry="6"
+                    fill="#eeeeee">
+                <title>Day 12: not solved</title>
+              </rect>
+            </a>
+            
+    </svg>
+    
