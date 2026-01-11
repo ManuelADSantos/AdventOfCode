@@ -1,0 +1,31 @@
+name: Update Advent of Code progress
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate SVGs
+        run: python .github/scripts/generate_aoc_svg.py
+
+      - name: Commit SVGs and README
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add aoc-progress-*.svg README.md
+          git commit -m "Update Advent of Code progress" || exit 0
+          git push
