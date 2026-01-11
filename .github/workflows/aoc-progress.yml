@@ -26,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add aoc-progress-*.svg README.md
+          git add .github/graphics/aoc-progress-*.svg README.md
           git commit -m "Update Advent of Code progress" || exit 0
           git push
